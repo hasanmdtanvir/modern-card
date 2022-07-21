@@ -1,0 +1,226 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    text-align: center;
+    height: 100px;
+    position: relative;
+    top: 25px;
+}
+
+.blog-card-section {
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 100vh;
+    /* margin-bottom: 100px; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.blog-cards {
+    width: 90%;
+    /* height: 80vh; */
+    margin-right: 5%;
+    margin-left: 5%;
+    /* background-color: yellow; */
+    /* border: 3px solid blue; */
+
+}
+
+.blog-card {
+    margin-top: 50px;
+    width: calc(90% / 3);
+    /* height: 600px; */
+    /* border: 1px solid red; */
+    background-color: whitesmoke;
+    text-align: justify;
+    box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 55px;
+}
+
+.blog-card h3 {
+    padding: 0px 30px;
+    margin-top: -30px;
+    font-size: 20px;
+}
+
+.blog-card p {
+    padding: 10px 30px;
+    font-size: 18px;
+}
+.blog-card-img{
+    position: relative;
+}
+.blog-card-img img {
+    padding: 15px;
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+    top: -60px;
+}
+.img-title{
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.profile-details {
+    width: 100%;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.profile-name-img{
+    width: 50%;
+    display: inline-block;
+    /* text-align: left; */
+}
+.profile-name-img img {
+    vertical-align: middle;
+    box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.profile-name-img span{
+    font-weight: bold;
+}
+.profile-icon{
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+.profile-icon div{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+/* profile card  */
+.profile-card-section h1{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.profile-cards-area{
+    margin-top: 100px;
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 100px;
+}
+.profile-cards{
+    width: 90%;
+    height: 80vh;
+    margin-right: auto;
+    margin-left: auto;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+.profile-card{
+    vertical-align: top;
+    display: inline-block;
+    width: calc(90% / 3);
+    /* height: 600px; */
+    /* border: 1px solid green; */
+    margin-top: 150px;
+    margin-right: 20px;
+    margin-left: 20px; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
+    background-color: whitesmoke;
+}
+.card-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: -100px;
+}
+.profile-card h5{
+    color: gray;
+}
+.profile-card p{
+    padding: 20px;
+}
+.profile-card h2{
+    margin-top: -50px;
+}
+.fa-instagram-square, .fa-twitter-square, .fa-github-square, .fa-linkedin{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+/* testimonial-area  */
+.testimonial-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.testimonial-section h1{
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+.testimonial-area{
+    width: 100%;
+    height: 100vh;
+    background-color:#E5E5E5;
+}
+.testimonial-cards{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80vh;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 100px;
+}
+.testimonial-card{
+    display: inline-block;
+    width: calc(90% / 3);
+    /* height: 600px; */
+    /* border: 1px solid green; */
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    position: relative;
+    top: 70px;
+    box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
+    border-radius: 10px;
+    vertical-align: top;
+    text-align: center;
+    background-color: whitesmoke
+}
+.testimonial-card i{
+    /* display: inline-block; */
+    font-size: 80px;
+    margin-top: 40px;
+}
+.testimonial-card p{
+    padding: 20px 50px;
+}
+.testimonial-card h5{
+    color: gray;
+}
+.testimonial-card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* margin-top: 40px; */
+    position: relative;
+    top: 100px;
+    border: 10px solid #E5E5E5;
+}
