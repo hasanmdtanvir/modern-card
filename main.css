@@ -14,25 +14,15 @@ header {
 .blog-card-section {
     background-color: #E5E5E5;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     /* margin-bottom: 100px; */
-}
-
-.blog-cards {
-    width: 90%;
-    /* height: 80vh; */
-    margin-right: 5%;
-    margin-left: 5%;
-    /* background-color: yellow; */
-    /* border: 3px solid blue; */
-    position: relative;
-    top: 120px;
-
+    padding-top: 100px;
+    padding-bottom: 40px;
 }
 
 .blog-card {
-    margin-top: 50px;
-    width: calc(90% / 3);
+    /* margin-top: 50px; */
+    width: calc(100% / 3 - 40px);
     /* height: 600px; */
     /* border: 1px solid red; */
     background-color: whitesmoke;
@@ -40,7 +30,8 @@ header {
     box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
     border-radius: 10px;
     display: inline-block;
-    margin-right: 55px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .blog-card h3 {
